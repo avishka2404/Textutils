@@ -48,7 +48,7 @@ function App() {
       <About mode={mode}/>
     </Route>
 
-    <Route exact path="/Textutils">
+    <Route path="/Textutils">
     <TextForm heading='Try TextUtils - Word Counter, Character Counter, Remove extra spaces' mode={mode} showalert={showAlert}/>
     </Route>
   
